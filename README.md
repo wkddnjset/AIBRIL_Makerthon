@@ -21,3 +21,5 @@ IBM의 인공지능 Watson을 국내 환경에 최적화한 SK 주식회사 C&C�
 
      ID : aibriltest001@yopmail.com
      password : aibril12#$
+
+[Watson Developer Cloud](https://github.com/watson-developer-cloud)
