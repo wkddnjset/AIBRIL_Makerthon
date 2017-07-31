@@ -13,6 +13,7 @@ IBM의 인공지능 Watson을 국내 환경에 최적화한 SK 주식회사 C&C�
 - 서장원(wkddnjset@naver.com) 
 - 이경호()
 - 이성민()
+    - 막내
 
 ## API
 
