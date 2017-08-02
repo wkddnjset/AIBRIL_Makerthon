@@ -1,9 +1,15 @@
 # AIBRIL_Makerthon
-IBM의 인공지능 Watson을 국내 환경에 최적화한 SK 주식회사 C&C의 서비스인 AIBRIL을 활용한 인공지능 메이커톤
+IBM의 인공지능 Watson을 국내 환경에 최적화한 SK 주식회사 C&C의 서비스인 "AIBRIL"을 활용한 인공지능 메이커톤
 
-## Goal
-  -
+## Goal (스마트 미러)
+
+- 하드웨어 (H/W)
+  - 라즈베리파이 (Raspberry pi 3)
+  - 카메라 모듈 ()
+  - 유선 스피커()
+  - 프레임 ()
   
+  
 ## Member & Roll
 
 - 김현태()
