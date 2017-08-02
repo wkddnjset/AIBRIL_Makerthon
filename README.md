@@ -23,7 +23,8 @@
     - 맡형
 - 변소현()
     - PT 발표ㅎㅎ 
-- 서장원(wkddnjset@naver.com) 
+- 서장원(wkddnjset@naver.com)
+    - 3D Modeling (Rhino 5)
 - 이경호()
 - 이성민()
     - 막내
