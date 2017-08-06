@@ -12,10 +12,10 @@
 
 ## API *(Google Custom Search Engine)*
 
-- 라즈베리파이 *(Raspberry pi 3)*
+- [Google CSE](https://developers.google.com/custom-search/docs/tutorial/introduction?hl=ko) *(Google Developers)*
 
      
 ## 참고
 
 - [점프 투 자바](https://wikidocs.net/book/31) *(자바 기본기)*
-- [Google CSE](https://developers.google.com/custom-search/docs/tutorial/introduction?hl=ko) *(Google Developers)*
+
