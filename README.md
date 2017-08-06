@@ -20,7 +20,8 @@
 ## Member & Roll
 
 - 김현태()
-    - Spring Framework (Server)
+    - Spring Framework (Server)  
+      
 - 변소현()
     - Forcast API
     - IBM Watson Developer Cloud
