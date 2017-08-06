@@ -20,12 +20,17 @@
 ## Member & Roll
 
 - 김현태()
-    - 맡형
+    - Spring Framework (Server)
 - 변소현()
-    - PT 발표ㅎㅎ 
+    - Forcast API
+    - IBM Watson Developer Cloud
 - 서장원(wkddnjset@naver.com)
     - 3D Modeling (Rhino 5)
+    - Google Custom Search Engine API
+    - IBM Watson Developer Cloud
 - 이경호()
+    - HTML
+    - IBM Watson Developer Cloud
 - 이성민()
     - 막내
 
