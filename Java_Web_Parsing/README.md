@@ -1,6 +1,5 @@
 # Java_Web_Parsing
-*IBM*의 인공지능 **Watson**을 국내 환경에 최적화한 SK 주식회사 C&C의 서비스인 **AIBRI**을 활용한 인공지능 메이커톤
-
+Java의 *라이브러리*중  하나인 **jsoup**를 사용한 웹 크롤링
 
 ## Library *(jsoup)*
 
