@@ -20,10 +20,10 @@
 ## Member & Roll
 
 - 김현태()
-    - Spring Framework (Server)  
+    - Spring Framework (Server)
       
 - 변소현()
-    - Forcast API
+    - Forcast API
     - IBM Watson Developer Cloud
 - 서장원(wkddnjset@naver.com)
     - 3D Modeling (Rhino 5)
