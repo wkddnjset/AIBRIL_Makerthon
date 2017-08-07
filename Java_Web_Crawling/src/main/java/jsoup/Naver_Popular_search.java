@@ -9,7 +9,7 @@ import org.w3c.dom.Text;
 // 참고 - http://blog.acronym.co.kr/337
 // select 명령어 - https://jsoup.org/apidocs/org/jsoup/select/Selector.html
 // https://jsoup.org/
-public class test {
+public class Naver_Popular_search {
 	public static void main(String[] args) throws IOException{
 		Document doc = Jsoup.connect("http://www.naver.com").get();
 		Elements titles = doc.select(".ah_item a span.ah_k");
