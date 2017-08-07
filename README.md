@@ -27,8 +27,8 @@
     - IBM Watson Developer Cloud
 - 서장원(wkddnjset@naver.com)
     - 3D Modeling (Rhino 5)
-    - Google Custom Search Engine API
-    - IBM Watson Developer Cloud
+    - Naver Web Carwling
+    - IBM Watson Developer Cloud
 - 이경호()
     - HTML
     - IBM Watson Developer Cloud
