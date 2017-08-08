@@ -20,7 +20,7 @@ public class App
     	service.setUsernameAndPassword("3261ef29-4d9e-4220-ac52-72728ec18d68", "xz5IcLm6yDr1");
     	
     	//String workspaceId = "76245395-689c-406a-a712-52960cbf2500";
-    	InputData input = new InputData.Builder("오늘 날씨가 뭐야").build();
+    	InputData input = new InputData.Builder("오늘 날씨 어떄?").build();
     	MessageOptions options = new MessageOptions.Builder("76245395-689c-406a-a712-52960cbf2500").input(input).build();
     	MessageResponse response = service.message(options).execute();
     	
