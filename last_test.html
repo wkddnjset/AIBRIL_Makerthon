@@ -1,0 +1,126 @@
+<html> 
+<head>
+        <meta charset = "UTF-8">
+        <title>Using weather api aibril</title>
+        <title>SK weather api</title>
+        
+    </head>
+
+    
+    <script>
+            function parseWeather() 
+            { 
+                  loadJSON(function(response) 
+                  {
+                      var jsonData = JSON.parse(response);
+                      //var temperature = jsonData.main.temp;
+                      var temperature = jsonData.main.temp - 271;
+                      var t = temperature.toFixed(0);
+                      var cityname = jsonData.name;
+                      var sate;
+                      if(temperature<20)
+                      {
+                          sate = "날씨가 추워요!";
+                      }
+                      else
+                      {
+                        sate = "날씨가 더워요!";
+                      }
+                      var pressure = jsonData.main.pressure;
+                      //temperature = temperature.toString().substring(0,temperature.indexOf('.')+2);
+                       document.getElementById("todaysWeather").innerHTML = "현재"+cityname+"의 상태는"+"<br/>"+"온도는 : " + t+"'C" +"<br/>" + " 상태 : "+sate +
+                       "<br/>"+ "압력은 : "+pressure;
+                  });
+            }
+            /*
+            function parseWeather2() //sk api
+            {
+              loadJSON(function(response))
+              {
+                var jsonData = JSON.parse(response);
+                var temperature = jsonData.
+
+
+                document.getElementById("todaysWeather").innerHTML = 
+              }
+            }*/
+
+           function loadJSON(callback) //url의 json 데이터 불러오는 함수
+           {   
+              //var url = "http://api.openweathermap.org/data/2.5/weather?q=Seoul@units=metric&APPID=7eff39ce4449d0955f4e9831be4bd647";
+              var url = "http://api.openweathermap.org/data/2.5/weather?q=Seoul@units=metric&APPID=7eff39ce4449d0955f4e9831be4bd647"
+              var request = new XMLHttpRequest();
+              request.overrideMimeType("application/json");
+              request.open('GET', url, true);
+
+              request.onreadystatechange = function () 
+              {
+                if (request.readyState == 4 && request.status == "200") 
+                {
+                  callback(request.responseText);
+                }
+              };
+              request.send(null);  
+          } 
+          /*
+
+          window.onload = function()
+          {
+            parseWeather();
+          }
+          */
+
+          function goClock()
+          {
+            var now = new Date();
+            var y = now.getHours();
+            var z = "";
+            if (y<12){z="AM";}
+            else{z="PM";}
+            var s = z + now.getHours() + ":"+ now.getMinutes() + ":" + now.getSeconds();
+            document.getElementById('clock').innerHTML = s;
+            tim = setTimeout("goClock()",1000);
+           }
+
+           window.onload=function()
+           {
+              goClock();
+              parseWeather();
+              
+           }
+
+
+          
+
+    </script>
+    <style>
+    @import url
+    (http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+    p{
+      font-family: 'nanumgothic';
+    }
+    </style>
+
+
+    <body bgcolor="black" >
+      <font color="white">
+      <p align="center"><span style="font-size: 40pt" > <font color="hotpink">Aibril Smart Mirror </font></span></p><br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      
+      <span style="font-size:54pt" id = "clock"></span>
+      <br/>
+      <br/>
+      <span style="font-size: 14pt" id ="todaysWeather"></span>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h2><p align="center"> 안녕 </p> </h2>
+      </font>
+    </body>
+
+</html>
