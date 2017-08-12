@@ -32,13 +32,14 @@ public class read_json {
             // category를 ListArray로 저장
             JSONArray category = (JSONArray) contant.get("category");        
             // intro를 ListArray로 저장
-            JSONArray intro = (JSONArray) contant.get("title");
+            JSONArray intro = (JSONArray) contant.get("intro");
             // location를 ListArray로 저장
-            JSONArray location = (JSONArray) contant.get("title");
+            JSONArray location = (JSONArray) contant.get("location");
             
             System.out.println(jsonObject);
             System.out.println(category);
             System.out.println(category.get(0));
+            
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
