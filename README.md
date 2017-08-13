@@ -11,10 +11,9 @@
   - 프레임 ()
 
 - **소프트웨어** *(S/W)*
-  - 라즈베리파이 *(Raspberry pi 3)*
-  - 카메라 모듈 ()
-  - 유선 스피커()
-  - 프레임 ()
+  - Java
+  - Spring
+  - Web Crawling
   
   
 ## Member & Roll
@@ -33,7 +32,7 @@
     - HTML
     - IBM Watson Developer Cloud
 - 이성민()
-    - 막내
+    - H/W 
 
 
 ## API
