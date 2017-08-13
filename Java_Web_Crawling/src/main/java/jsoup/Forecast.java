@@ -21,7 +21,7 @@ public static void main(String[] args) throws IOException{
       String title = titles.text();
       String title_1 = title.split("℃")[0];
       String title_2 = title.split("℃")[1];
-      System.out.println("현재 "+word+"의 온도는"+title_1+"℃"+"고, 날씨는 "+title_2+ "인데, 뭐 하러가는거야?");
+      System.out.println("현재 "+word+"의 온도는"+title_1+"℃"+"고, 날씨는 "+title_2+ "이라던데, 뭐 하러가는거야?");
 
 	}
 }

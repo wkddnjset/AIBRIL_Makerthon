@@ -23,6 +23,7 @@ public class Response
     	InputData input = new InputData.Builder("안녕").build();
     	MessageOptions options = new MessageOptions.Builder("76245395-689c-406a-a712-52960cbf2500").input(input).build();
     	MessageResponse response = service.message(options).execute();
+    	response.setInput(Inputdata );
     	
     	//System.out.println(options);
     	//System.out.println(input);

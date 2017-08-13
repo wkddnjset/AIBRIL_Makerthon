@@ -5,11 +5,14 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.awt.List;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Iterator;
+import java.util.Set;
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class read_json {
 
@@ -35,10 +38,13 @@ public class read_json {
             JSONArray intro = (JSONArray) contant.get("intro");
             // location를 ListArray로 저장
             JSONArray location = (JSONArray) contant.get("location");
-            
-            System.out.println(jsonObject);
+           
             System.out.println(category);
-            System.out.println(category.get(0));
+            Set<String> hashsetList = new HashSet<String>(category);
+
+            System.out.println(hashsetList);
+            System.out.println(hashsetList.getClass().getName());
+            
             
         } catch (FileNotFoundException e) {
             e.printStackTrace();

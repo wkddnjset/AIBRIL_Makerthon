@@ -22,7 +22,9 @@ import com.ibm.watson.developer_cloud.service.model.GenericModel;
  */
 public class MessageRequest extends GenericModel {
 
-  private InputData input;
+	
+
+private InputData input;
   @SerializedName("alternate_intents")
   private Boolean alternateIntents;
   private Context context;
@@ -63,6 +65,9 @@ public class MessageRequest extends GenericModel {
   public Context getContext() {
     return context;
   }
+  /**
+   * Builder.
+   */
 
   /**
    * Gets the entities.
@@ -99,6 +104,7 @@ public class MessageRequest extends GenericModel {
   public OutputData getOutput() {
     return output;
   }
+  
 
   /**
    * Sets the input.
